@@ -55,6 +55,7 @@ function bloquea(user){
   		output2 = output.replace(".",":");
   		output2 = output2.replace(".",":");
   		$.get("http://vs2k8-monbdbc01/SegundoPlano/ajax/insert.php?user="+user+"&server="+servidor+"]"+linux+"]"+trescinco+"]"+fechai+"]"+fechaf+"&fecha="+output2);
+  		//window.alert("Proceso Creado");
   	$.ajax({
   			async:true,
             type: "POST",
@@ -70,7 +71,6 @@ function bloquea(user){
 	$('#bloquea').delay(5).queue(function(){
   		$('#bloquea').show();
 	});
-	//window.alert("Proceso Creado");
 	}else{
 		window.alert("Debe selecionar alguna de las opciones superiores");
 	}

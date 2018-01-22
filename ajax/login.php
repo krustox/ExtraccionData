@@ -17,7 +17,7 @@ if(substr($user, 0,5) != "banco" )
 	//echo $user;
 }
 
-if($user == "banco\jfiguero" || $user == "banco\montivoli" || $user == "banco\cumana1" || $user == "banco\\rmejias" || $user == "banco\\rfadul" || $user == "banco\pgoffard" || $user == "banco\dpozo" || $user == "banco\maraya90" || $user == "banco\mvalle1" || $user == "banco\flisboa" || $user == "banco\scoyopae" || $user == "banco\\rjimen92"){
+if($user == "banco\jfiguero" || $user == "banco\montivoli" || $user == "banco\cumana1" || $user == "banco\\rmejias" || $user == "banco\\rfadul" || $user == "banco\pgoffard" || $user == "banco\dpozo" || $user == "banco\maraya90" || $user == "banco\mvalle1" || $user == "banco\flisboa" || $user == "banco\scoyopae" || $user == "banco\\rjimen92" || $user == "banco\oabarca1"){
 
 if(login($user, $contra)){
 	$ip = getRealIP();
