@@ -1,0 +1,2 @@
+ErrorDocument 404 http://vs2k8-monbdbc01/ExtraccionData/error/page404.php
+ErrorDocument 404 http://localhost/ExtraccionData/error/page404.php
